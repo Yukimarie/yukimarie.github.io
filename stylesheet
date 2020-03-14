@@ -1,0 +1,101 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  color: #fff;
+  height: 40px;
+  opacity: 0.9;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  letter-spacing: 6px;
+  opacity: 0.9;
+}
+
+.header-left p {
+  letter-spacing: 3px;
+  font-size: 10px;
+}
+
+.main-wrapper {
+  background-image: url(main-bg.jpg);
+  background-size: cover;
+  height: 90%;
+  width: auto;
+}
+
+.main-text h1 {
+  color: #F4F4F4;
+  letter-spacing: 3px;
+  opacity: 0.9;
+  font-size: 20px;
+}
+
+.menu-wrapper {
+  float: right;
+  color: #fff;
+  padding-top: 50px;
+  padding-right: 20px;
+  width: 600px;
+  height: 90%;
+}
+
+.menu {
+  border: 1px solid black;
+  box-sizing: border-box;
+  float: right;
+  color: black;
+  background-color: white;
+  opacity: 0.6;
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+}
+
+.menu p {
+  font-size: 56px;
+  opacity:0.4;
+  display: inline-block;
+
+}
+
+footer {
+  height:100px;
+  background-color: black;
+  opacity: 0.9;
+
+}
+
+.footer-left p {
+  display:inline-block;
+  color: white;
+  float-left;
+  width: 124ox;
+  padding-top: 24px;
+}
+
+.menu:hover {
+  background-color: white;
+  opacity: 0.8;
+}
